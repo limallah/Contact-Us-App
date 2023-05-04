@@ -1,0 +1,101 @@
+
+#header {
+    width: 100%;
+    height: 80vh;
+    margin-top: 42px;
+}
+
+#header h1{
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+.menu_active {
+    font-weight: bold;
+    border-bottom: 5px solid red;
+    
+}
+
+#header .brand-name{
+    color: #4E9CAF;
+}
+
+#header h2{
+    color: #484848;
+    font-size: 24px;
+}
+
+
+
+.btn-get-started{
+    display: block;
+    width: 135px;
+    height: 50px;
+    background: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #4E9CAF;
+    font-weight: bold;
+    line-height: 25px;
+    border-radius: 50px;
+    border: 2px solid #4E9CAF;
+    text-decoration: none;
+    transition: 1s;
+}
+.btn-get-started:hover{
+    background: #4E9CAF;
+    color: white;
+}
+
+.header-img{
+    margin: 20vh 35vh;
+    padding: 30px;
+    height: 250px;
+    width: 300px;
+    text-align: right;
+    border: 0px solid red;  
+}
+
+.img-fluid-animated{
+    margin: 0vh 0vh;
+    padding: 30px;
+    height: 400px;
+    width: 500px;
+
+}
+
+/* Animated Image */
+#header .img-fluid-animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down{
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down{
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+/* ----------Contact us---------- */
+form{
+    border: 0px solid red;
+}
+
+.check{
+    border: 0px solid red;
+}
+
+
